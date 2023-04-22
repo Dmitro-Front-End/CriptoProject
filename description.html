@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>description</title>
+    <link rel="stylesheet" href="./style/helper.css" />
+    <link rel="stylesheet" href="./style/description.style.css" />
+  </head>
+  <body>
+    <div class="bodyError"></div>
+    <div class="contentBody centerC">
+      <div class="current_cripto centerC">
+        <div class="top-cripta centerC">
+          <h2></h2>
+          <img />
+        </div>
+        <div class="description"></div>
+        <div class="containerPrice center">
+          <select class="desc"></select>
+          <div class="price"></div>
+        </div>
+    </div>
+    
+    <div class="data-div">
+        <div class="contData centerC">
+            <span>from</span>
+            <input class="data1" type="date" />
+        </div>
+        <div class="contData centerC">
+            <span>to</span>
+            <input class="data2" type="date" />
+        </div>
+    </div>
+    <select class="language"></select>
+      <button class="btn-hostory">search</button>
+
+      <div class="c_chart center">
+        <canvas id="myChart"></canvas>
+      </div>
+      <button disabled class="clear">clear</button>
+      <div class="thema-div">
+          <button class="thema1 shadow">black</button>
+          <button class="thema2">white</button>
+          <!-- <button class="thema3">green</button> -->
+      </div>
+    </div>
+    <!-- library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- my script -->
+    <script src="./js/description.js"></script>
+  </body>
+</html>
